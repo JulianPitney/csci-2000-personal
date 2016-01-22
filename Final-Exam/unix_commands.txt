@@ -4,7 +4,7 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
-
+grep . classlist.csv 
 
 
 # part (b)
@@ -13,7 +13,7 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
-
+grep . classlist.csv | wc
 
 
 # part (c)
@@ -24,7 +24,7 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
-
+grep . classlist.csv | sort -good_option_here
 
 
 # part (d)
